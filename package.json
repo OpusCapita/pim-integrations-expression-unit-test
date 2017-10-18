@@ -1,0 +1,19 @@
+{
+  "name": "unittestlibrary",
+  "version": "1.0.0",
+  "description": "A unitTestLibrary where you can Test you custom JavaScript funktions",
+  "main": "unittest.js",
+  "scripts": {
+    "test": "mocha -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OpusCapita/azubi-unitTestLibrary.git"
+  },
+  "author": "Alexej Fröbel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OpusCapita/azubi-unitTestLibrary/issues"
+  },
+  "homepage": "https://github.com/OpusCapita/azubi-unitTestLibrary#readme"
+}

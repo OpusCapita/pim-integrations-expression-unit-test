@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/OpusCapita/azubi-unitTestLibrary.git"
   },
-  "author": "Alexej Fröbel",
+  "author": "Philipp Flenker, Alexej Fröbel",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/OpusCapita/azubi-unitTestLibrary/issues"

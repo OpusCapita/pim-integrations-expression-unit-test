@@ -1,4 +1,5 @@
-//Do not change anything below
+//Start of the configuration, do not change
+//############################################
 const fs = require("fs")
 const sinon = require("sinon")
 const chai = require("chai")
@@ -21,5 +22,5 @@ try{
   errorMsg += "Please check your Syntax in the customJSFunctions.js"
   console.error(errorMsg)
 }
-//Do not change anything above
-//Write your tests below this line
+//################################################
+//End of the configuration, write your tests below

@@ -4,7 +4,7 @@
   "description": "A unitTestLibrary where you can Test you custom JavaScript funktions",
   "main": "unittest.js",
   "scripts": {
-    "test": "mocha -w"
+    "test": "mocha -w unitTestLibrary.js"
   },
   "repository": {
     "type": "git",

@@ -21,6 +21,7 @@ try{
   errorMsg += "An error occured by trying to eval your customJSFunctions.js."
   errorMsg += "Please check your Syntax in the customJSFunctions.js"
   console.error(errorMsg)
+  console.error(e);
 }
 //################################################
 //End of the configuration, write your tests below

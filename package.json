@@ -1,14 +1,14 @@
 {
-  "name": "unittestlibrary",
+  "name": "STPRJ-unitTestLibrary",
   "version": "1.0.0",
-  "description": "A unitTestLibrary where you can Test you custom JavaScript funktions",
-  "main": "unittest.js",
+  "description": "This is a library where people can unit test PIM8 expressions",
+  "main": "unitTestLibrary.js",
   "scripts": {
     "test": "mocha -w unitTestLibrary.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/OpusCapita/azubi-unitTestLibrary.git"
+    "url": "git+https://github.com/OpusCapita/STPRJ-unitTestLibrary.git"
   },
   "author": "Philipp Flenker, Alexej Fröbel",
   "license": "ISC",

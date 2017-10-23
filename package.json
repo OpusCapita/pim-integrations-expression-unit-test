@@ -1,6 +1,6 @@
 {
   "name": "STPRJ-unitTestLibrary",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "This is a library where people can unit test PIM8 expressions",
   "main": "unitTestLibrary.js",
   "scripts": {

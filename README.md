@@ -1,6 +1,6 @@
 # Unit-Test-Library
 ## How to prepare:
-- Install npm, you can download it here: https://www.npmjs.com/get-npm
+- Install npm, you can download it [here](https://www.npmjs.com/get-npm)
 - ```git clone <this respository>```
 - Than type ```npm install``` to install all dependecies
 - If your customization area is under version control, clone it to the folder ```customizationArea``` with ```git clone <repositoryname> customizationArea```

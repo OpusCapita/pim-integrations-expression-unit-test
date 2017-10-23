@@ -4,7 +4,7 @@
   "description": "Library to unit-test expressions in PIM8",
   "main": "unitTestLibrary.js",
   "scripts": {
-    "test": "mocha -w unitTestLibrary.js"
+    "start": "mocha -w unitTestLibrary.js"
   },
   "repository": {
     "type": "git",

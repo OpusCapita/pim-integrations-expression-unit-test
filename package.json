@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/OpusCapita/azubi-unitTestLibrary/issues"
   },
-  "homepage": "https://github.com/OpusCapita/azubi-unitTestLibrary#readme"
+  "homepage": "https://github.com/OpusCapita/azubi-unitTestLibrary#readme",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "fs": "0.0.1-security",
+    "mocha": "^4.0.1",
+    "sinon": "^4.0.1"
+  }
 }

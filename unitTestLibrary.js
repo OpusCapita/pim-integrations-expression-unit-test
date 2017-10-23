@@ -1,9 +1,9 @@
+//Do not change anything below
 const fs = require("fs")
 const sinon = require("sinon")
 const chai = require("chai")
 const expect = chai.expect
-let path = require("./config.json").path
-console.log(path)
+let filePath = require("./config.json").path
 let customFunctions = fs.readFileSync(path, "UTF-8")
 let contextLanguage = "de";
 let term = sinon.stub()
@@ -20,8 +20,6 @@ try{
 }
 //Do not change anything above
 //Write your tests below this line
-
-
 
 function termTest() {
   let result;

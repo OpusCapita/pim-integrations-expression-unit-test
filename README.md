@@ -11,14 +11,14 @@
 
 
 - If you want to paste in your expressions directly from the product, you have to paste them into the customJSFunctions.js file located at customizationArea/integration/externalProduct/customJSFunctions.js and put it into a named function => Example:
->! Your expression:
->! ```tag("$red")```
->!
->! Put it into the customJSFunctions.js like this:
->! ```
->! function myFunction(){
->! tag("$red")
->! }
+> Your expression:
+> ```tag("$red")```
+>
+> Put it into the customJSFunctions.js like this:
+> ```
+> function myFunction(){
+> tag("$red")
+> }
 Than you can use the function in the test file as myFunction()
 - This library reads the file ```customJSFunctions.js``` from ```customizationArea/integration/externalProduct/customJSFunctions.js```. You can change that path by changing the ```config.json```
 ## How to write tests:

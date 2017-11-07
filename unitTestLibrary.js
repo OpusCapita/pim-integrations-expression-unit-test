@@ -12,7 +12,7 @@ let boilerplate = sinon.stub()
 let attributeValue = sinon.stub()
 let attributeValues = sinon.stub()
 let product = {
-  attributeValue: attributeValue
+  attributeValue: attributeValue,
   attributeValues: attributeValues
 }
 try{

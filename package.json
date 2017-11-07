@@ -1,0 +1,25 @@
+{
+  "name": "stprj-expression-unit-test",
+  "version": "0.0.1",
+  "description": "Library to unit-test expressions in PIM8",
+  "main": "unitTestLibrary.js",
+  "scripts": {
+    "start": "mocha -w unitTestLibrary.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OpusCapita/stprj-expression-unit-test.git"
+  },
+  "author": "Philipp Flenker, Alexej Fröbel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OpusCapita/stprj-expression-unit-test/issues"
+  },
+  "homepage": "https://github.com/OpusCapita/stprj-expression-unit-test#readme",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "fs": "0.0.1-security",
+    "mocha": "^4.0.1",
+    "sinon": "^4.0.1"
+  }
+}

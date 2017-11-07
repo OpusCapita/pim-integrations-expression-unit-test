@@ -22,7 +22,7 @@
 >Than you can use the function in the test file as myFunction()
 - This library reads the file ```customJSFunctions.js``` from ```customizationArea/integration/externalProduct/customJSFunctions.js```. You can change that path by changing the ```config.json```
 ## How to write tests:
-- This framework uses sinon, chai and expect
+- This framework uses [sinon](http://sinonjs.org/), [chai](http://chaijs.com/api/) and [mocha](https://mochajs.org/)
 - Also you can see examples how to write tests with this framework at this [repository](https://github.com/OpusCapita/stprj-expression-unit-test-examples)
 - All functions you can use in expressions are pre-defined, so that it wont create errors if you just include it. You can see how to change the behavior of this functions in the example repository shown above.
 

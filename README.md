@@ -6,4 +6,4 @@
 - If your customization area is under version control, clone it to the folder ```customizationArea``` with ```git clone <respository> customizationArea```
 - If your customization area is not under version control, copy it into the folder ```customizationArea```
 - This library reads the file ```customJSFunctions.js``` from ```customizationArea/integration/externalProduct/customJSFunctions.js```. You can change that path by changing the ```config.json```
-- If you want to paste in your expressions directly from the product, you have to paste them into the customJSFunctions.js file and put it in a named function.
+- If you want to paste in your expressions directly from the product, you have to paste them into the customJSFunctions.js file and put it into a named function.

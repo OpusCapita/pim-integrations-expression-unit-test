@@ -25,10 +25,10 @@ try{
 }
 //################################################
 //End of the configuration, write your tests below
-//Mehr Text mit Referenz auf Sample-Repositor
-//Sample-Repository
-//An dieser Stelle sind Deine Expressions verfuegbar, Du kannst sie einfach
-//mit (methodename) aufrufen.
-//contextLanguage ist eine vordefinierte Variable, die Du berschreiben kannst
-//term, boilerplate... sind stubs (link auf stub-doku von sinon), die entsprechednd
-//konfiguriert werden koennen. Umfassende Beispiele finden sich http://www.google.de http://www.google.de http://www.google.de
+/*
+* At this point, your expressions are available. You can call them with the functionname, like: myFunction().
+* contextLanguage is a variable, which you can change. In expressions it is used for example with: "en","de" or "es".
+* term, boilerplate and product.getAttributeValue are sinon-stubs, which can be configured like this.
+* You can read the sinon documentation here: http://sinonjs.org/
+* You can look up many examples at https://github.com/OpusCapita/stprj-expression-unit-test-examples
+*/

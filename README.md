@@ -10,7 +10,7 @@
 
 ## How to write tests:
 - This framework uses Sinon, chai and expect, you can read Docs or watch Tutorials to know how to use them
-- Also you can see examples how to write tests with this framework at this [repository](#)
+- Also you can see examples how to write tests with this framework at this [repository](https://github.com/OpusCapita/stprj-expression-unit-test-examples.git)
 - All functions you can use in expressions are pre-defined, so that it wont create errors if you just include it. You can see how to change the behavior of this functions in the example repository shown above.
 
 ## pre-defined functions:

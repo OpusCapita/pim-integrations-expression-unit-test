@@ -10,8 +10,10 @@ let contextLanguage = "de";
 let term = sinon.stub()
 let boilerplate = sinon.stub()
 let attributeValue = sinon.stub()
+let attributeValues = sinon.stub()
 let product = {
   attributeValue: attributeValue
+  attributeValues: attributeValues
 }
 try{
   eval(customFunctions)

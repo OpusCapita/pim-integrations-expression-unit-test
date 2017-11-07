@@ -9,9 +9,9 @@ let customFunctions = fs.readFileSync(filePath, "UTF-8")
 let contextLanguage = "de";
 let term = sinon.stub()
 let boilerplate = sinon.stub()
-let getAttributeValue = sinon.stub()
+let attributeValue = sinon.stub()
 let product = {
-  getAttributeValue: getAttributeValue
+  attributeValue: attributeValue
 }
 try{
   eval(customFunctions)

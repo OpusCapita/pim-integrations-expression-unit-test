@@ -8,9 +8,7 @@ let filePath = require("./config.json").filePath
 let customFunctions = fs.readFileSync(filePath, "UTF-8")
 let contextLanguage = "de";
 let term = sinon.stub()
-term.returns("")
 let boilerplate = sinon.stub()
-boilerplate.returns("")
 let getAttributeValueStub = sinon.stub()
 let product = {
   getAttributeValue: getAttributeValueStub
@@ -27,3 +25,10 @@ try{
 }
 //################################################
 //End of the configuration, write your tests below
+//Mehr Text mit Referenz auf Sample-Repositor
+//Sample-Repository
+//An dieser Stelle sind Deine Expressions verfuegbar, Du kannst sie einfach
+//mit (methodename) aufrufen.
+//contextLanguage ist eine vordefinierte Variable, die Du berschreiben kannst
+//term, boilerplate... sind stubs (link auf stub-doku von sinon), die entsprechednd
+//konfiguriert werden koennen. Umfassende Beispiele finden sich http://www.google.de http://www.google.de http://www.google.de

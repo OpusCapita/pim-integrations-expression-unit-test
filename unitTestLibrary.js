@@ -8,7 +8,9 @@ let filePath = require("./config.json").filePath
 let customFunctions = fs.readFileSync(filePath, "UTF-8")
 let contextLanguage = "de";
 let term = sinon.stub()
+term.returns("")
 let boilerplate = sinon.stub()
+boilerplate.returns("")
 let getAttributeValueStub = sinon.stub()
 let product = {
   getAttributeValue: getAttributeValueStub

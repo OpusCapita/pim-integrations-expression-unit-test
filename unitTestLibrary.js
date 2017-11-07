@@ -13,7 +13,6 @@ let getAttributeValue = sinon.stub()
 let product = {
   getAttributeValue: getAttributeValue
 }
-getAttributeValue.returns({"value":"value"})
 try{
   eval(customFunctions)
 }catch(e){

@@ -25,3 +25,6 @@
 - This framework uses [sinon](http://sinonjs.org/), [chai](http://chaijs.com/api/) and [mocha](https://mochajs.org/)
 - Also you can see examples how to write tests with this framework at this [repository](https://github.com/OpusCapita/stprj-expression-unit-test-examples)
 - All functions you can use in expressions are defined, you just have to set how they should behave with [sinon](http://sinonjs.org/)
+
+## Important Information:
+- This test suite does not support ES6. Please be aware of using ES6 features in your expressions

@@ -18,7 +18,8 @@
 > ```
 > function myFunction(){
 > tag("$red")
-> }```
+> }
+```
 >Than you can use the function in the test file as myFunction()
 - This library reads the file ```customJSFunctions.js``` from ```customizationArea/integration/externalProduct/customJSFunctions.js```. You can change that path by changing the ```config.json```
 ## How to write tests:

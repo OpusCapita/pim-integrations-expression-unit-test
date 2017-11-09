@@ -6,8 +6,6 @@ eval(util.unparsedExpressions)
 * At this point, you can do your requires, depending on which test suite you want to use. Also you can manage the includes
 * of the functions used for expression. For example if you dont need boilerplate, you can remove it from the imports below.
 */
-const chai = require("chai")
-const expect = chai.expect
 let term = util.term
 let boilerplate = util.boilerplate
 let attributeValue = util.attributeValue

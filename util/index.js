@@ -5,11 +5,10 @@ let unparsedExpressions = fs.readFileSync(filePath, "UTF-8")
 let contextLanguage = "";
 let term = sinon.stub()
 let boilerplate = sinon.stub()
-let attributeValue = sinon.stub()
-let attributeValues = sinon.stub()
+
 let product = {
-  attributeValue: attributeValue,
-  attributeValues: attributeValues
+  attributeValue: sinon.stub(),
+  attributeValues: sinon.stub()
 }
 try{
   eval(unparsedExpressions)
@@ -23,8 +22,6 @@ try{
 module.exports = {
   term: term,
   boilerplate: boilerplate,
-  attributeValues: attributeValues,
-  attributeValue: attributeValue,
   product: product,
   contextLanguage: contextLanguage,
   unparsedExpressions: unparsedExpressions

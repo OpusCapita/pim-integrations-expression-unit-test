@@ -5,8 +5,6 @@ eval(util.unparsedExpressions)
 //Prepare for expression evaluation
 let term = util.term
 let boilerplate = util.boilerplate
-let attributeValue = util.attributeValue
-let attributeValues = util.attributeValues
 let product = util.product
 let contextLanguage = util.contextLanguage
 

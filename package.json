@@ -1,6 +1,6 @@
 {
   "name": "stprj-expression-unit-test",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Library to unit-test expressions in PIM8",
   "main": "unitTestLibrary.js",
   "scripts": {

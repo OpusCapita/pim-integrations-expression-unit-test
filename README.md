@@ -24,7 +24,8 @@
 - This library reads the file ```customJSFunctions.js``` from ```customizationArea/integration/externalProduct/customJSFunctions.js```. You can change that path by changing the ```config.json```
 
 ## How to write tests:
-- This framework uses [sinon](http://sinonjs.org/), [chai](http://chaijs.com/api/) and [mocha](https://mochajs.org/)
+- This framework uses [sinon](http://sinonjs.org/) and [mocha](https://mochajs.org/)
+- You need to import the test environment which you want to use, like [chai](http://chaijs.com/api/)
 - Also you can see examples how to write tests with this framework at this [repository](https://github.com/OpusCapita/stprj-expression-unit-test-examples)
 - All functions you can use in expressions are defined, you just have to set how they should behave with [sinon](http://sinonjs.org/)
 

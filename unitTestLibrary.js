@@ -1,6 +1,6 @@
 //Important, dont change:
-const unparsedExpressions = require("./util")
-eval(unparsedExpressions.customFunctions)
+const util = require("./util")
+eval(util.unparsedExpressions)
 
 /*
 * At this point, you can do your requires, depending on which test suite you want to use. Also you can manage the includes
@@ -8,11 +8,12 @@ eval(unparsedExpressions.customFunctions)
 */
 const chai = require("chai")
 const expect = chai.expect
-let term = unparsedExpressions.term
-let boilerplate = unparsedExpressions.boilerplate
-let attributeValue = unparsedExpressions.attributeValue
-let attributeValues = unparsedExpressions.attributeValues
-let product = unparsedExpressions.product
+let term = util.term
+let boilerplate = util.boilerplate
+let attributeValue = util.attributeValue
+let attributeValues = util.attributeValues
+let product = util.product
+let contextLanguage = util.contextLanguage
 
 
 /*

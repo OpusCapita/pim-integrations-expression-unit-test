@@ -1,31 +1,20 @@
-//Start of the configuration, do not change
-//############################################
-const fs = require("fs")
-const sinon = require("sinon")
+//Important, dont change:
+const unparsedExpressions = require("./util")
+eval(unparsedExpressions.customFunctions)
+
+/*
+* At this point, you can do your requires, depending on which test suite you want to use. Also you can manage the includes
+* of the functions used for expression. For example if you dont need boilerplate, you can remove it from the imports below.
+*/
 const chai = require("chai")
 const expect = chai.expect
-let filePath = require("./config.json").filePath
-let customFunctions = fs.readFileSync(filePath, "UTF-8")
-let contextLanguage = "de";
-let term = sinon.stub()
-let boilerplate = sinon.stub()
-let attributeValue = sinon.stub()
-let attributeValues = sinon.stub()
-let product = {
-  attributeValue: attributeValue,
-  attributeValues: attributeValues
-}
-try{
-  eval(customFunctions)
-}catch(e){
-  let errorMsg;
-  errorMsg += "An error occured by trying to eval your customJSFunctions.js."
-  errorMsg += "Please check your Syntax in the customJSFunctions.js"
-  console.error(errorMsg)
-  console.error(e);
-}
-//################################################
-//End of the configuration, write your tests below
+let term = unparsedExpressions.term
+let boilerplate = unparsedExpressions.boilerplate
+let attributeValue = unparsedExpressions.attributeValue
+let attributeValues = unparsedExpressions.attributeValues
+let product = unparsedExpressions.product
+
+
 /*
 * At this point, your expressions are available. You can call them with the functionname, like: myFunction().
 * contextLanguage is a variable, which you can change. In expressions it is used for example with: "en","de" or "es".

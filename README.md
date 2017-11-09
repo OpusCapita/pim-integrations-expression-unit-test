@@ -28,3 +28,4 @@
 
 ## Important Information:
 - This test suite does not support ES6. Please be aware of using ES6 features in your expressions
+- This test suite does actually not support the format functions.

@@ -10,7 +10,8 @@
 - If your customization area is not under version control, copy it into the folder ```customizationArea```
 
 
-- If you want to paste in your expressions directly from the product, you have to paste them into the customJSFunctions.js file located at customizationArea/integration/externalProduct/customJSFunctions.js and put it into a named function => Example:
+- If you want to paste in your expressions directly from the product, you have to paste them into the customJSFunctions.js file located at customizationArea/integration/externalProduct/customJSFunctions.js and put it into a named function
+#### How to do this:
 > Your expression:
 > ```tag("$red")```
 >

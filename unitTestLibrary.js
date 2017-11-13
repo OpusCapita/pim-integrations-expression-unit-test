@@ -1,5 +1,5 @@
 //Import and initialize
-const util = require("./util")
+const util = require("./util").initalize()
 eval(util.unparsedExpressions)
 
 //Prepare for expression evaluation

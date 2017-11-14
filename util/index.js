@@ -8,6 +8,7 @@ module.exports.initalize = function(config) {
   let filePath = require(configToUse).filePath
   let unparsedExpressions =fs.readFileSync(filePath, "UTF-8")
   let contextLanguage = "";
+  let contextTag = "";
   let term = sinon.stub()
   let boilerplate = sinon.stub()
   let product = {
@@ -28,6 +29,7 @@ module.exports.initalize = function(config) {
     boilerplate: boilerplate,
     product: product,
     contextLanguage: contextLanguage,
+    contextTag: contextTag,
     unparsedExpressions: unparsedExpressions
   }
 }

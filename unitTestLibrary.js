@@ -7,6 +7,7 @@ let term = util.term
 let boilerplate = util.boilerplate
 let product = util.product
 let contextLanguage = util.contextLanguage
+let contextTag = util.contextTag
 
 
 /*

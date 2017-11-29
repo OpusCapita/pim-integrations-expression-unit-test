@@ -37,6 +37,7 @@
 ## Notes
 - This test suite does not support ES6 features in expressions.
 - This test suite does currently not support the `format` functions from PIM..
+- This test suite supports PIM version 8.7 and above
 
 ## Contributing
 We are happy to accept pull requests.

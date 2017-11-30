@@ -12,8 +12,7 @@ module.exports.initalize = function(config) {
   let term = sinon.stub()
   let boilerplate = sinon.stub()
   let product = {
-    attributeValue: sinon.stub(),
-    attributeValues: sinon.stub()
+    attributeValue: sinon.stub()
   }
   try{
     eval(unparsedExpressions)

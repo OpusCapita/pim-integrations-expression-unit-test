@@ -1,4 +1,6 @@
-# stprj-expression-unit-test
+# Expressions Unit Test Library
+A small environment which allows to add unit tests to expressions.
+
 ## How to prepare:
 ### Prepare the repository
 - Install [npm](https://www.npmjs.com/get-npm)
@@ -37,6 +39,8 @@
 ## Notes
 - This test suite does not support ES6 features in expressions.
 - This test suite does currently not support the `format` functions from PIM.
+
+## Compatibility
 - This test suite works since PIM 8.8
 
 

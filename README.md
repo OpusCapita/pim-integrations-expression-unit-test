@@ -30,7 +30,7 @@ A small environment which allows to add unit tests to expressions.
 ## How to write tests:
 - This framework is based on  [sinon](http://sinonjs.org/) and [mocha](https://mochajs.org/). In order to use a different framework than `mocha`, adjust the  start command inside the `package.json`.
 - It is possible to use libraries like [chai](http://chaijs.com/api/) by simply installing it as a dependency and `require`ing it.
-- Use our [example repository](https://github.com/OpusCapita/stprj-expression-unit-test-examples) for in-depth examples and documentation.
+- Use our [example repository](https://github.com/OpusCapita/pim-integrations-expression-unit-test-examples) for in-depth examples and documentation.
 - All functions usually available within an expression, like `term` and `boilerplate`, are set up as [sinon stubs](http://sinonjs.org/). See the example repository for details.
 
 ## How to use

@@ -41,7 +41,7 @@ Then you can use the function in the test file as myFunction()
 - This test suite does currently not support the `format` functions from PIM.
 
 ## Compatibility
-- This test suite works with PIM 8.8 & 8.9m1
+- This test suite works with PIM 8.8 & 8.9m1 & 8.9
 
 
 ## Contributing

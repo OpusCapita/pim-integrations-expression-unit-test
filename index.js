@@ -1,18 +1,16 @@
 const fs = require("fs")
-const sinon = require("sinon")
 
 
 
-module.exports.initalize = function(config) {
-  let configToUse = config || "../config.json"
-  let filePath = require(configToUse).filePath
+module.exports.initalize = function(options) {
+  let filePath = options ? options.filePath : "./customizationArea/integration/externalProduct/customJSFunctions.js"
   let unparsedExpressions =fs.readFileSync(filePath, "UTF-8")
   let contextLanguage = "";
   let contextTag = "";
-  let term = sinon.stub()
-  let boilerplate = sinon.stub()
+  let term = jest.fn()
+  let boilerplate = jest.fn()
   let product = {
-    attributeValue: sinon.stub()
+    attributeValue: jest.fn()
   }
   try{
     eval(unparsedExpressions)

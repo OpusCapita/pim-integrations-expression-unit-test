@@ -1,24 +1,19 @@
 {
-  "name": "stprj-expression-unit-test",
-  "version": "1.0.0",
-  "description": "Library to unit-test expressions in PIM8",
+  "name": "pim-integrations-expression-unit-test",
+  "version": "6.0.0",
+  "description": "Library to unit-test expressions in PIM 8",
   "main": "unitTestLibrary.js",
-  "scripts": {
-    "start": "mocha -w unitTestLibrary.js"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/OpusCapita/stprj-expression-unit-test.git"
   },
-  "author": "Philipp Flenker, Alexej Fröbel",
+  "author": "OpusCapita",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/OpusCapita/stprj-expression-unit-test/issues"
   },
   "homepage": "https://github.com/OpusCapita/stprj-expression-unit-test#readme",
   "dependencies": {
-    "fs": "0.0.1-security",
-    "mocha": "^4.0.1",
-    "sinon": "^4.0.1"
+    "jest": "^23.5.0"
   }
 }

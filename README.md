@@ -1,54 +1,72 @@
 # Expressions Unit Test Library
 A small environment which allows to add unit tests to expressions.
 
-## How to prepare:
-### Prepare the repository
-- Install [npm](https://www.npmjs.com/get-npm)
-- ```git clone <this respository>```
-- Install dependecies with ```npm install```
+## Set up
+### Preconditions
+This library is published as a NodeJS module. You can use [`npm`](https://www.npmjs.com/get-npm) or [`yarn`](https://yarnpkg.com/en/docs/install) to install it
 
-### Add your code
-- If your customization area is under version control, clone it to the folder ```customizationArea``` with ```git clone <repository> customizationArea```
-- If your customization area is not under version control, copy it into the folder ```customizationArea```
+#### In case you already have a package.json:
+Install the module with  `npm install pim-integrations-expression-unit-test --save-dev` or `yarn add pim-integrations-expression-unit-test --dev` and use it as described below.
 
+#### In case you do not have a package.json:
+It is recommended that you add a `package.json` to your project, which lists and handles the JavaScript dependencies. You can use `yarn init` or `npm init` to create one and then proceed as described above. Don't forget to exclude the folder `node_modules` from version control!
 
-- If you want to paste in your expressions directly from the Product Editor, you have to paste them into the file located at `customizationArea/integration/externalProduct/customJSFunctions.js` and put it into a named function
+#### In case you do not want to have a package.json:
+You can install the module with `npm install pim-integrations-expression-unit-test` or `yarn add pim-integrations-expression-unit-test`. In this case, you always have to (re-)install the module every time.  Don't forget to exclude the folder `node_modules` from version control!
+
+### Unit test inline expressions
+- If you want to paste in your expressions directly from the Product Editor, you have to paste them into a `.js` file  and put it into a named function:
 
 #### Example
- Your expression:
- ```tag("$red")```
+ Your expression in PIM:
+ ```
+ term("$red")
+ ```
 
- Put it into the `customJSFunctions.js` like this:
+Create  a new file called `customJSFunctions.js` and wrap it into a named function, like this:
  ```
  function myFunction(){
-   tag("$red")
+   term("$red")
  }
  ```
 Then you can use the function in the test file as myFunction()
-- This library reads the file `customJSFunctions.js` from ```customizationArea/integration/externalProduct/customJSFunctions.js```. You can change that path in the `config.json`
 
-## How to write tests:
-- This framework is based on  [sinon](http://sinonjs.org/) and [mocha](https://mochajs.org/). In order to use a different framework than `mocha`, adjust the  start command inside the `package.json`.
-- It is possible to use libraries like [chai](http://chaijs.com/api/) by simply installing it as a dependency and `require`ing it.
+## Writing tests
+- This framework is based on  [jest](https://jestjs.io).
 - Use our [example repository](https://github.com/OpusCapita/pim-integrations-expression-unit-test-examples) for in-depth examples and documentation.
-- All functions usually available within an expression, like `term` and `boilerplate`, are set up as [sinon stubs](http://sinonjs.org/). See the example repository for details.
+- All functions which usually are available within an expression, like `term` and `boilerplate`, are set up as [jest-mocks](https://jestjs.io/docs/en/mock-functions). See the example repository for details.
+- On the top of your test file, place the following lines:
+```
+jest.unmock('pim-integrations-expression-unit-test');
+const util = require('pim-integrations-expression-unit-test').initalize(options});
+eval(util.unparsedExpressions);
+```
 
-## How to use
-- Type `npm start` to run the tests
+- The first line makes sure that `jest` does not mock this library
+- the second line initializes this library. `options` is a JavaScript object, defined as follows:
+
+```javascript
+{
+    filePath: "./customizationArea/integration/externalProduct/customJSFunctions.js" //points to the file with the expressions. Default: ./customizationArea/integration/externalProduct/customJSFunctions.js
+}
+```
+
+- The third line makes the expressions available for test.
 
 ## Notes
-- This test suite does not support ES6 features in expressions.
+- PIM does not support ES6 features in expressions.
 - This test suite does currently not support the `format` functions from PIM.
 
 ## Compatibility
 - This test suite works with PIM 8.10m1
-
 
 ## Contributing
 We are happy to accept pull requests.
 
 ## Contributors
 
-| [<img src="https://avatars.githubusercontent.com/u/30691117" width="100px;"/>](https://github.com/alexejFroebel) | [**Alexej Froebel**](https://github.com/alexejFroebel)     |
+| [<img src="https://avatars.githubusercontent.com/u/41996712" width="100px;"/>](https://github.com/uwestolz) | [**Uwe Stolz**](https://github.com/uwestolz)     |
 | :---: | :---: |
+| [<img src="https://avatars.githubusercontent.com/u/36043138" width="100px;"/>](https://github.com/davidbrien) | [**David Brien**](https://github.com/davidbrien)     |
+| [<img src="https://avatars.githubusercontent.com/u/30691117" width="100px;"/>](https://github.com/alexejFroebel) | [**Alexej Froebel**](https://github.com/alexejFroebel)     |
  [<img src="https://avatars.githubusercontent.com/u/4085533" width="100px;"/>](https://github.com/pflenker) | [**Philipp Flenker**](https://github.com/pflenker) |

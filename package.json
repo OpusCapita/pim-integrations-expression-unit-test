@@ -5,14 +5,14 @@
   "main": "unitTestLibrary.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/OpusCapita/stprj-expression-unit-test.git"
+    "url": "git+https://github.com/OpusCapita/pim-integrations-expression-unit-test.git"
   },
   "author": "OpusCapita",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/OpusCapita/stprj-expression-unit-test/issues"
+    "url": "https://github.com/OpusCapita/pim-integrations-expression-unit-test/issues"
   },
-  "homepage": "https://github.com/OpusCapita/stprj-expression-unit-test#readme",
+  "homepage": "https://github.com/OpusCapita/pim-integrations-expression-unit-test#readme",
   "dependencies": {
     "jest": "^23.5.0"
   }

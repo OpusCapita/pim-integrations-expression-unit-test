@@ -10,7 +10,24 @@ module.exports.initalize = function(options) {
   let term = jest.fn()
   let boilerplate = jest.fn()
   let product = {
-    attributeValue: jest.fn()
+    catalogId: jest.fn(),
+    attributeValue: jest.fn(),
+    statusId: jest.fn(),
+    productIdExtension: jest.fn(),
+    productId: jest.fn(),
+    supplierId: jest.fn(),
+    isMainProdLine: jest.fn(),
+    manufacturerId: jest.fn(),
+    isPunchout: jest.fn(),
+    keywords: jest.fn(),
+    isConfigurable: jest.fn(),
+    unitOfMeasureId: jest.fn(),
+    salesUnitOfMeasureId: jest.fn(),
+    validTo: jest.fn(),
+    validFrom: jest.fn(),
+    extProductId: jest.fn(),
+    mfgProductId: jest.fn(),
+    manufacturerName: jest.fn()
   }
   try{
     eval(unparsedExpressions)

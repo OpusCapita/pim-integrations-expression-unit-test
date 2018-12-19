@@ -6,13 +6,13 @@ A small environment which allows to add unit tests to expressions.
 This library is published as a NodeJS module. You can use [`npm`](https://www.npmjs.com/get-npm) or [`yarn`](https://yarnpkg.com/en/docs/install) to install it
 
 #### In case you already have a package.json:
-Install the module with  `npm install pim-integrations-expression-unit-test --save-dev` or `yarn add pim-integrations-expression-unit-test --dev` and use it as described below.
+Install the module with  `npm install OpusCapita/pim-integrations-expression-unit-test --save-dev` or `yarn add OpusCapita/pim-integrations-expression-unit-test --dev` and use it as described below.
 
 #### In case you do not have a package.json:
 It is recommended that you add a `package.json` to your project, which lists and handles the JavaScript dependencies. You can use `yarn init` or `npm init` to create one and then proceed as described above. Don't forget to exclude the folder `node_modules` from version control!
 
 #### In case you do not want to have a package.json:
-You can install the module with `npm install pim-integrations-expression-unit-test` or `yarn add pim-integrations-expression-unit-test`. In this case, you always have to (re-)install the module every time.  Don't forget to exclude the folder `node_modules` from version control!
+You can install the module with `npm install OpusCapita/pim-integrations-expression-unit-test` or `yarn add OpusCapita/pim-integrations-expression-unit-test`. In this case, you always have to (re-)install the module every time.  Don't forget to exclude the folder `node_modules` from version control!
 
 ### Unit test inline expressions
 - If you want to paste in your expressions directly from the Product Editor, you have to paste them into a `.js` file  and put it into a named function:

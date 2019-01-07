@@ -29,7 +29,7 @@ module.exports.initalize = function (options) {
     manufacturerName: jest.fn(),
   };
   try {
-    // This resolves to the call: eval(unparsedExpressions). But with this way, eval is called indirect, which changes the behavior to evaluate to the global context.
+    // This resolves to the call: eval(unparsedExpressions). But with this way, eval is called indirectly, which changes the behavior to evaluate to the global context.
     // See: https://stackoverflow.com/questions/9107240/1-evalthis-vs-evalthis-in-javascript
     (1, eval)(unparsedExpressions);
   } catch (e) {

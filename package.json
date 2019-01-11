@@ -1,6 +1,6 @@
 {
   "name": "pim-integrations-expression-unit-test",
-  "version": "6.0.0",
+  "version": "7.0.0",
   "description": "Library to unit-test expressions in PIM 8",
   "main": "unitTestLibrary.js",
   "repository": {

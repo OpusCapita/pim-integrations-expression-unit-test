@@ -14,6 +14,6 @@
   },
   "homepage": "https://github.com/OpusCapita/pim-integrations-expression-unit-test#readme",
   "dependencies": {
-    "jest": "^23.5.0"
+    "jest": "^24.8.0"
   }
 }

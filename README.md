@@ -58,7 +58,7 @@ eval(util.unparsedExpressions);
 - This test suite does currently not support the `format` functions from PIM.
 
 ## Compatibility
-- This test suite works with PIM 8.10
+- This test suite works with PIM 8.13.GA
 
 ## Contributing
 We are happy to accept pull requests.

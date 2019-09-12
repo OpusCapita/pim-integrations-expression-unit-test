@@ -69,4 +69,3 @@ We are happy to accept pull requests.
 | :---: | :---: |
 | [<img src="https://avatars.githubusercontent.com/u/36043138" width="100px;"/>](https://github.com/davidbrien) | [**David Brien**](https://github.com/davidbrien)     |
 | [<img src="https://avatars.githubusercontent.com/u/30691117" width="100px;"/>](https://github.com/alexejFroebel) | [**Alexej Froebel**](https://github.com/alexejFroebel)     |
- [<img src="https://avatars.githubusercontent.com/u/4085533" width="100px;"/>](https://github.com/pflenker) | [**Philipp Flenker**](https://github.com/pflenker) |
